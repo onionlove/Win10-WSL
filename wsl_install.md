@@ -8,21 +8,21 @@ windos的操作系统为WIN10(2018.03及以后)。
 
 1、设置(win+I)–->更新和安全-->开发者选项，勾选“**开发人员模式**”，如下图所示
 
-![1551752731045](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551752731045.png)
+![1](image/1.PNG)
 
 2、控制面板-->程序–->程序和功能【启用或关闭Windows功能】，勾选【适用于Linux的Windows子系统】，如下图所示：
 
-![1551753148954](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551753148954.png)
+![2](image/2.PNG)
 
 ## 步骤三：下载linux系统
 
 可以选择下载商城的ubuntu系统，搜索“**wsl**”,如下图所示：
 
-![1551753894750](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551753894750.png)
+![3](image/3.PNG)
 
 然后选择你所需安装的linux系统获取并且安装启动，点击左下角“win”图标然后双击下载的linux系统进行安装，如图所示：
 
-![1551755979398](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551755979398.png)
+![4](image/4.PNG)
 
 ## 步骤四：安装wsl terminal
 
@@ -32,11 +32,11 @@ wsl-terminal是一个很好用的WSL终端
 
 2、添加右键菜单：将下载的安装包解压到相应的目录如图所示：
 
-![1551754999865](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551754999865.png)
+![5](image/5.PNG)
 
 打开tool目录在鼠标右键添加你需要的功能。例如添加“**1-add-open-wsl-terminal-here-menu.js**”功能，如下图所示：
 
-![1551763129152](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551763129152.png)
+![6](image/6.png)
 
 ## 步骤五：更新root用户密码
 
@@ -347,7 +347,7 @@ sudo python get-pip.py
 
 win+R输入regedit，找到路径”**\HKEY_CLASSES_ROOT\.js**“，配置如图所示：
 
-![1551773201523](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551773201523.png)
+![7](image/7.PNG)
 
 也可以参考以下链接：[https://jingyan.baidu.com/article/ff42efa93a7ad9c19e2202f0.html](https://jingyan.baidu.com/article/ff42efa93a7ad9c19e2202f0.html)
 
@@ -355,5 +355,5 @@ win+R输入regedit，找到路径”**\HKEY_CLASSES_ROOT\.js**“，配置如图
 
 win+R输入regedit，找到路径”**\HKEY_CLASSES_ROOT\Directory\Background\shell\open-wsl**“，**数据**为安装wsl的对应目录，配置如图所示：
 
-![1551764477109](C:\Users\cong_tao\AppData\Roaming\Typora\typora-user-images\1551764477109.png)
+![8](image/8.PNG)
 
